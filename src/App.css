@@ -13,6 +13,35 @@
   }
 }
 
+.houseimg {
+  position: absolute;
+  width: 500px;
+  left: 40px;
+}
+
+.houseCard {
+  flex-flow: column wrap;
+}
+
+.navbar {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7558470.jpg&f=1&nofb=1&ipt=237a99299334d5f61920d80f20266afe0da21a167947ce3f2ccfdf76e44b019d&ipo=images");
+}
+
+.houseCard img {
+  width: 500px;
+}
+
+.houseform {
+  position: absolute;
+  left: 600px;
+  top: 50px;
+  width: 50%;
+}
+
+.houseform * {
+  margin: 1px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +61,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
